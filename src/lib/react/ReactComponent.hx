@@ -36,7 +36,7 @@ extern class ReactComponentOf<TProps, TState, TRefs>
 	**/
 	var refs(default, null):TRefs;
 
-	function new(?props:TProps, ?context:Dynamic);
+	function new(?props:TProps /*, ?context:Dynamic */);
 
 	/**
 		https://facebook.github.io/react/docs/react-component.html#forceupdate
